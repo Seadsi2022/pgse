@@ -1,0 +1,27 @@
+{
+  "applications": "*",
+  "changelogDate": "20220901135806",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "setablissement",
+  "fields": [
+    {
+      "fieldName": "codeadministratif",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Setablissement",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "sstructure",
+      "ownerSide": true,
+      "relationshipName": "sstructure",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}
