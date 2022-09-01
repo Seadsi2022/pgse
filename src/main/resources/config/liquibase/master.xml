@@ -17,7 +17,40 @@
     <property name="datetimeType" value="datetime" dbms="postgresql"/>
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220901135802_added_entity_Scode.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220901135803_added_entity_Scodevaleur.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220901135804_added_entity_Slocalite.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220901135805_added_entity_Sstructure.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220901135806_added_entity_Setablissement.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220901135807_added_entity_Etypechamp.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220901135808_added_entity_Eattribut.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220901135809_added_entity_Evaleurattribut.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220901135810_added_entity_Eunite.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220901135811_added_entity_Ecampagne.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220901135812_added_entity_Equestionnaire.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220901135813_added_entity_Egroupe.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220901135814_added_entity_Etypevariable.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220901135815_added_entity_Evariable.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220901135816_added_entity_Eattributvariable.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220901135817_added_entity_Eeventualite.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220901135818_added_entity_Eeventualitevariable.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220901135819_added_entity_Egroupevariable.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220901135820_added_entity_Evaleurvariable.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20220901135803_added_entity_constraints_Scodevaleur.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220901135804_added_entity_constraints_Slocalite.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220901135805_added_entity_constraints_Sstructure.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220901135806_added_entity_constraints_Setablissement.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220901135807_added_entity_constraints_Etypechamp.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220901135808_added_entity_constraints_Eattribut.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220901135810_added_entity_constraints_Eunite.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220901135812_added_entity_constraints_Equestionnaire.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220901135813_added_entity_constraints_Egroupe.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220901135815_added_entity_constraints_Evariable.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220901135816_added_entity_constraints_Eattributvariable.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220901135818_added_entity_constraints_Eeventualitevariable.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220901135819_added_entity_constraints_Egroupevariable.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220901135820_added_entity_constraints_Evaleurvariable.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
     <!-- jhipster-needle-liquibase-add-incremental-changelog - JHipster will add incremental liquibase changelogs here -->
 </databaseChangeLog>
